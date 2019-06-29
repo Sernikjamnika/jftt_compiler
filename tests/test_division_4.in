@@ -1,0 +1,21 @@
+DECLARE
+a; b; c; d; e; f; g; h; k; l; i; j;
+IN
+
+FOR i FROM 10 DOWNTO 0 DO
+   b := 1;
+   c := 2;
+   d := 3;
+   e := 3;
+   f := 3;
+   g := 3;
+   h := 3;
+   k := 3;
+   l := 3;
+   j := 3;
+   e := d / 3;
+   e := 70 / d;
+   e := f / b;
+ENDFOR
+
+END

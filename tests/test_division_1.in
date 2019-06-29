@@ -1,0 +1,11 @@
+DECLARE
+a; b; c;
+IN
+
+a := 0;
+b := 0;
+c := b / a;
+WRITE a;
+WRITE b;
+WRITE c;
+END

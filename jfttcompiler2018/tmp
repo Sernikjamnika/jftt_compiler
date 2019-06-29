@@ -1,0 +1,991 @@
+a --- memloc 0
+b --- memloc 1
+c --- memloc 2
+i --- memloc 3
+i_end --- memloc 4
+j --- memloc 5
+j_end --- memloc 6
+k --- memloc 7
+k_end --- memloc 8
+GET VARIABLE {'name': 'a', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 0}
+GETTING FREE REGISTERS
+{'B': None, 'C': None, 'D': None, 'E': None, 'F': None, 'G': None}
+a {'name': 'a', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+NO REGISTERS in line 1
+{'B': 'loaded', 'C': None, 'D': None, 'E': None, 'F': None, 'G': None}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+GET VARIABLE {'name': 'b', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 1}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': None, 'D': None, 'E': None, 'F': None, 'G': None}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+NO REGISTERS in line 2
+{'B': 'loaded', 'C': 'loaded', 'D': None, 'E': None, 'F': None, 'G': None}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+GET VARIABLE {'name': 'c', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 2}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'loaded', 'D': None, 'E': None, 'F': None, 'G': None}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+NO REGISTERS in line 3
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': None, 'F': None, 'G': None}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'i', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 3}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': None, 'F': None, 'G': None}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+Value {'name': 'accumulator_tmp', 'register': 'H', 'initialized': True, 'loaded': True, 'memLoc': -1}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af480f0>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af55240>
+NO REGISTERS in line 10
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': None, 'G': None}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'i_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 4}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': None, 'G': None}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+Value {'name': 'accumulator_tmp', 'register': 'H', 'initialized': True, 'loaded': True, 'memLoc': -1}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48160>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48208>
+NO REGISTERS in line 12
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': None}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'j', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 5}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': None}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+Value {'name': 'accumulator_tmp', 'register': 'H', 'initialized': True, 'loaded': True, 'memLoc': -1}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af481d0>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af482e8>
+NO REGISTERS in line 14
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+GET VARIABLE {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+Value {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+Value {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48240>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af480f0>
+NO REGISTERS in line 17
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+Value {'name': 'accumulator_tmp', 'register': 'H', 'initialized': True, 'loaded': True, 'memLoc': -1}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af482b0>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af4d5c0>
+NO REGISTERS in line 25
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': None, 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+GET VARIABLE {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+Value {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+Value {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48358>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af481d0>
+NO REGISTERS in line 33
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+GET VARIABLE {'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+GET VARIABLE B
+Value {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+GET VARIABLE {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+GETTING FREE REGISTERS
+{'B': 'busy', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+GET VARIABLE C
+Value {'name': 'k_end', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 8}
+NO REGISTERS in line 59
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+GET VARIABLE B
+GET VARIABLE {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+Value {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+GET VARIABLE {'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+GETTING FREE REGISTERS
+{'B': 'busy', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+GET VARIABLE C
+Value {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af36fd0>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af36fd0>
+NO REGISTERS in line 82
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+GET VARIABLE {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+Value {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+GET VARIABLE {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+Value {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'busy', 'D': 'busy', 'E': 'loaded', 'F': 'loaded', 'G': 'busy'}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48080>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48080>
+NO REGISTERS in line 94
+{'B': None, 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+GET VARIABLE {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+Value {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+GET VARIABLE {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+Value {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48080>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48080>
+NO REGISTERS in line 95
+{'B': None, 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+GETTING FREE REGISTERS
+{'B': None, 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+GET VARIABLE B
+GET VARIABLE {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+Value {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+GET VARIABLE {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+Value {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48048>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48048>
+NO REGISTERS in line 99
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+GET VARIABLE {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+Value {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+NO REGISTERS in line 100
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+GET VARIABLE {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+Value {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+NO REGISTERS in line 101
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+RESTORING VARIABLES 101
+{'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+{'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+{'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+{'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+{'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+{'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+{'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+{'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+{'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+------------------------------
+{'a': 'InMemory', 'b': 'C', 'c': 'D', 'i': 'E', 'i_end': 'F', 'j': 'G', 'j_end': 'InMemory', 'k': 'InMemory', 'k_end': 'B'}
+------------------------------
+{'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+{'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+{'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+{'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+{'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+{'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+{'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+{'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+{'name': 'k_end', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 8}
+END RESTORING VARIABLES
+NO REGISTERS in line 120
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+GET VARIABLE {'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+GET VARIABLE B
+Value {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+GET VARIABLE {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+GETTING FREE REGISTERS
+{'B': 'busy', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+GET VARIABLE C
+Value {'name': 'k_end', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 8}
+NO REGISTERS in line 146
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+Value {'name': 'accumulator_tmp', 'register': 'H', 'initialized': True, 'loaded': True, 'memLoc': -1}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af482b0>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af55e80>
+NO REGISTERS in line 149
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'k_end', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 8}
+GET VARIABLE {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+Value {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+Value {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48358>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af481d0>
+NO REGISTERS in line 150
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+GET VARIABLE B
+GET VARIABLE {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+Value {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+GET VARIABLE {'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+GETTING FREE REGISTERS
+{'B': 'busy', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+GET VARIABLE C
+Value {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af36fd0>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af36fd0>
+NO REGISTERS in line 173
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+GET VARIABLE {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+Value {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+GET VARIABLE {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+Value {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+GETTING FREE REGISTERS
+{'B': 'loaded', 'C': 'busy', 'D': 'busy', 'E': 'loaded', 'F': 'loaded', 'G': 'busy'}
+a {'name': 'a', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48080>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48080>
+NO REGISTERS in line 185
+{'B': None, 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+GET VARIABLE {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+Value {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+GET VARIABLE {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+Value {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48080>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48080>
+NO REGISTERS in line 186
+{'B': None, 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+Assignment identifier type <class 'ast_tree.Identifier'>
+GET VARIABLE {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+GETTING FREE REGISTERS
+{'B': None, 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+JAMNIK
+GET VARIABLE B
+GET VARIABLE {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+Value {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+GET VARIABLE {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+Value {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+VARIABLE:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48048>
+REGISTER_NAME:  <class 'ast_tree.Variable'> <ast_tree.Variable object at 0x10af48048>
+NO REGISTERS in line 190
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+GET VARIABLE {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+Value {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+NO REGISTERS in line 191
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+GET VARIABLE {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+Value {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+NO REGISTERS in line 192
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+RESTORING VARIABLES 192
+{'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+{'name': 'b', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 1}
+{'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+{'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+{'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+{'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+{'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+{'name': 'k', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 7}
+{'name': 'k_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 8}
+------------------------------
+{'a': 'InMemory', 'b': 'C', 'c': 'D', 'i': 'E', 'i_end': 'F', 'j': 'G', 'j_end': 'InMemory', 'k': 'InMemory', 'k_end': 'B'}
+------------------------------
+{'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+{'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+{'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+{'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+{'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+{'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+{'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+{'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+{'name': 'k_end', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 8}
+END RESTORING VARIABLES
+NO REGISTERS in line 211
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 8}
+
+GET B
+GET C
+GET D
+SUB H H 
+INC H
+ADD H H
+ADD H H
+ADD H H
+INC H
+COPY E H # assignment for Value i
+SUB H H 
+COPY F H # assignment for Value i_end
+SUB H H 
+COPY G H # assignment for Value j
+SUB A A 
+STORE B #store into memory a
+COPY B E # assignment for Value j_end
+SUB A A 
+INC A
+ADD A A
+INC A
+ADD A A
+STORE B #store into memory j_end
+SUB H H 
+COPY B H # assignment for Value k
+SUB A A 
+INC A
+ADD A A
+INC A
+ADD A A
+INC A
+STORE B #store into memory k
+COPY B G # assignment for Value k_end
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+STORE B #store into memory k_end
+SUB A A 
+INC A
+ADD A A
+INC A
+ADD A A
+INC A
+LOAD B #load from memory k
+SUB A A 
+INC A
+STORE C #store into memory b
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+LOAD C #load from memory k_end
+COPY A B #condition begining 
+SUB A C
+JZERO A 59
+JUMP 120 #condtion end
+SUB A A 
+INC A
+ADD A A
+INC A
+ADD A A
+INC A
+STORE B #store into memory k
+SUB A A 
+LOAD B #load from memory a
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+STORE C #store into memory k_end
+SUB A A 
+INC A
+ADD A A
+INC A
+ADD A A
+INC A
+LOAD C #load from memory k
+ADD B C # fast add B += C
+SUB A A 
+STORE B #store into memory a
+COPY A C #multiplying
+COPY B G
+SUB D D
+JZERO B 94
+JODD B 90
+JUMP 91
+ADD D A
+ADD A A
+HALF B
+JUMP 87 #multiplying end
+ADD D E # fast add D += E
+SUB A A 
+INC A
+LOAD B #load from memory b
+ADD B D # fast add B += D
+PUT B
+PUT G
+SUB A A 
+INC A
+ADD A A
+INC A
+ADD A A
+INC A
+STORE C #store into memory k
+SUB A A 
+INC A
+STORE B #store into memory b
+SUB A A 
+INC A
+LOAD C #load from memory b
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+LOAD B #load from memory k_end
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+STORE B #store into memory k_end
+SUB A A 
+INC A
+ADD A A
+INC A
+ADD A A
+INC A
+LOAD B #load from memory k
+SUB A A 
+INC A
+STORE C #store into memory b
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+LOAD C #load from memory k_end
+COPY A B #condition begining 
+SUB A C
+JZERO A 146
+JUMP 211 #condtion end
+SUB H H 
+INC H
+COPY B H # assignment for Value k
+COPY C G # assignment for Value k_end
+SUB A A 
+INC A
+ADD A A
+INC A
+ADD A A
+INC A
+STORE B #store into memory k
+SUB A A 
+LOAD B #load from memory a
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+STORE C #store into memory k_end
+SUB A A 
+INC A
+ADD A A
+INC A
+ADD A A
+INC A
+LOAD C #load from memory k
+ADD B C # fast add B += C
+SUB A A 
+STORE B #store into memory a
+COPY A C #multiplying
+COPY B G
+SUB D D
+JZERO B 185
+JODD B 181
+JUMP 182
+ADD D A
+ADD A A
+HALF B
+JUMP 178 #multiplying end
+ADD D E # fast add D += E
+SUB A A 
+INC A
+LOAD B #load from memory b
+ADD B D # fast add B += D
+PUT B
+PUT G
+SUB A A 
+INC A
+ADD A A
+INC A
+ADD A A
+INC A
+STORE C #store into memory k
+SUB A A 
+INC A
+STORE B #store into memory b
+SUB A A 
+INC A
+LOAD C #load from memory b
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+LOAD B #load from memory k_end
+a {'name': 'a', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 0}
+b {'name': 'b', 'register': 'C', 'initialized': True, 'loaded': False, 'memLoc': 1}
+c {'name': 'c', 'register': 'D', 'initialized': True, 'loaded': False, 'memLoc': 2}
+i {'name': 'i', 'register': 'E', 'initialized': True, 'loaded': False, 'memLoc': 3}
+i_end {'name': 'i_end', 'register': 'F', 'initialized': True, 'loaded': False, 'memLoc': 4}
+j {'name': 'j', 'register': 'G', 'initialized': True, 'loaded': False, 'memLoc': 5}
+j_end {'name': 'j_end', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 6}
+k {'name': 'k', 'register': 'InMemory', 'initialized': True, 'loaded': False, 'memLoc': 7}
+k_end {'name': 'k_end', 'register': 'B', 'initialized': True, 'loaded': False, 'memLoc': 8}
+{'B': 'loaded', 'C': 'loaded', 'D': 'loaded', 'E': 'loaded', 'F': 'loaded', 'G': 'loaded'}

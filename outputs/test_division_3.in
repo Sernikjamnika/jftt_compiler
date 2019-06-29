@@ -1,0 +1,117 @@
+SUB G G 
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+SUB A A 
+STORE G #store into memory a
+SUB G G 
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+SUB A A 
+INC A
+STORE G #store into memory b
+SUB A A 
+LOAD F #load from memory a
+SUB A A 
+INC A
+LOAD G #load from memory b
+COPY A G #division
+JZERO F 98 #zero_divison
+COPY D F
+COPY C D
+SUB C A
+JZERO C 81
+JUMP 83
+ADD D D
+JUMP 77
+SUB C C
+COPY E D
+SUB E A
+JZERO E 90
+ADD C C
+HALF D
+JUMP 94
+ADD C C
+INC C
+SUB A D
+HALF D
+COPY E F
+SUB E D
+JZERO E 84
+JUMP 100
+SUB A A
+SUB C C #division end
+SUB A A 
+INC A
+INC A
+STORE C #store into memory c
+SUB A A 
+LOAD B #load from memory a
+PUT B
+SUB A A 
+INC A
+LOAD B #load from memory b
+PUT B
+SUB A A 
+INC A
+INC A
+LOAD B #load from memory c
+PUT B
+HALT

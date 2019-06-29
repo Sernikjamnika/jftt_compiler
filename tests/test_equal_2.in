@@ -1,0 +1,9 @@
+DECLARE
+b; c;
+IN
+b := 10;
+c := 11;
+IF b = c THEN
+    WRITE 1;
+ENDIF
+END

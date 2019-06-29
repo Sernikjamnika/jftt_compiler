@@ -1,0 +1,90 @@
+SUB G G 
+INC G
+SUB A A 
+INC A
+STORE G #store into memory i
+SUB G G 
+INC G
+INC G
+INC G
+SUB A A 
+INC A
+INC A
+STORE G #store into memory i_end0
+SUB A A 
+INC A
+LOAD C #load from memory i
+SUB A A 
+INC A
+INC A
+LOAD D #load from memory i_end0
+COPY A C #condition begining 
+SUB A D
+JZERO A 24
+JUMP 89 #condtion end
+SUB A A 
+INC A
+LOAD G #load from memory i
+DEC G
+SUB A A 
+STORE G #store into memory c
+SUB G G 
+INC G
+INC G
+INC G
+INC G
+SUB A A 
+INC A
+INC A
+INC A
+STORE G #store into memory j
+SUB A A 
+LOAD G #load from memory c
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+STORE G #store into memory j_end0
+SUB A A 
+INC A
+INC A
+INC A
+LOAD C #load from memory j
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+LOAD D #load from memory j_end0
+COPY A C #condition begining 
+SUB A D
+JZERO A 63
+JUMP 81 #condtion end
+SUB A A 
+INC A
+INC A
+INC A
+LOAD B #load from memory j
+PUT B
+SUB A A 
+INC A
+INC A
+INC A
+LOAD B #load from memory j
+INC B # increment iterator
+SUB A A 
+INC A
+INC A
+INC A
+STORE B #store into memory j
+JUMP 48 #jump to condition
+SUB A A 
+INC A
+LOAD B #load from memory i
+INC B # increment iterator
+SUB A A 
+INC A
+STORE B #store into memory i
+JUMP 13 #jump to condition
+HALT

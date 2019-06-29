@@ -1,0 +1,37 @@
+SUB G G 
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+SUB A A 
+STORE G #store into memory b
+SUB D D 
+INC D
+INC D
+INC D
+INC D
+INC D
+INC D
+INC D
+INC D
+INC D
+INC D
+SUB A A 
+LOAD C #load from memory b
+COPY A D #condition begining 
+INC A
+SUB A C
+JZERO A 33
+JUMP 36 #condtion end
+SUB B B 
+INC B
+PUT B
+HALT

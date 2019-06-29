@@ -1,0 +1,385 @@
+SUB G G 
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+SUB A A 
+INC A
+STORE G #store into memory n
+SUB G G 
+INC G
+SUB A A 
+INC A
+INC A
+INC A
+STORE G # store into memory f(f)
+SUB G G 
+INC G
+SUB A A 
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+STORE G # store into memory s(s)
+SUB G G 
+SUB A A 
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+INC A
+STORE G # store into memory i(i)
+SUB G G 
+INC G
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+STORE G #store into memory j
+SUB A A 
+INC A
+LOAD G #load from memory n
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+STORE G #store into memory j_end0
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+LOAD C #load from memory j
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+LOAD D #load from memory j_end0
+COPY A C #condition begining 
+SUB A D
+JZERO A 126
+JUMP 358 #condtion end
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+LOAD G #load from memory j
+DEC G
+SUB A A 
+STORE G #store into memory k
+SUB A A 
+LOAD G #load from memory k
+DEC G
+SUB A A 
+INC A
+INC A
+STORE G #store into memory l
+SUB A A 
+LOAD A #load from memory k
+SUB H H 
+INC H
+ADD H H
+INC H
+ADD H H
+ADD H H
+ADD H H
+INC H
+ADD H H
+INC H
+ADD H H
+ADD H H
+INC H
+ADD A H
+LOAD G # load from memory i(k)
+INC G
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+LOAD A #load from memory j
+SUB H H 
+INC H
+ADD H H
+INC H
+ADD H H
+ADD H H
+ADD H H
+INC H
+ADD H H
+INC H
+ADD H H
+ADD H H
+INC H
+ADD A H
+STORE G # end store into memory 
+SUB A A 
+INC A
+INC A
+LOAD A #load from memory l
+SUB H H 
+INC H
+INC H
+INC H
+ADD A H
+LOAD F # load from memory f(l)
+SUB A A 
+LOAD A #load from memory k
+SUB H H 
+INC H
+INC H
+INC H
+ADD A H
+LOAD G # load from memory f(k)
+ADD G F
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+LOAD A #load from memory j
+SUB H H 
+INC H
+INC H
+INC H
+ADD A H
+STORE G # end store into memory 
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+LOAD A #load from memory j
+SUB H H 
+INC H
+ADD H H
+INC H
+ADD H H
+ADD H H
+ADD H H
+INC H
+ADD H H
+INC H
+ADD H H
+ADD H H
+INC H
+ADD A H
+LOAD F # load from memory i(j)
+SUB A A 
+LOAD A #load from memory k
+SUB H H 
+INC H
+ADD H H
+INC H
+ADD H H
+ADD H H
+INC H
+ADD H H
+ADD H H
+ADD H H
+ADD A H
+LOAD G # load from memory s(k)
+COPY A F #checking which is bigger
+SUB A G
+JZERO A 292
+COPY A F #multiplying if x is smaller
+COPY E G
+SUB D D
+JZERO E 302
+JODD E 288
+JUMP 289
+ADD D A
+ADD A A
+HALF E
+JUMP 285 # multiplying if x end
+COPY A G #multiplying if y is smaller
+COPY E F
+SUB D D
+JZERO E 302
+JODD E 298
+JUMP 299
+ADD D A
+ADD A A
+HALF E
+JUMP 295 #multiplying if y end
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+LOAD A #load from memory j
+SUB H H 
+INC H
+ADD H H
+INC H
+ADD H H
+ADD H H
+INC H
+ADD H H
+ADD H H
+ADD H H
+ADD A H
+STORE D # end store into memory 
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+LOAD B #load from memory j
+INC B # increment iterator
+SUB A A 
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+INC A
+ADD A A
+ADD A A
+ADD A A
+INC A
+ADD A A
+STORE B #store into memory j
+JUMP 93 #jump to condition
+SUB A A 
+INC A
+LOAD A #load from memory n
+SUB H H 
+INC H
+ADD H H
+INC H
+ADD H H
+ADD H H
+INC H
+ADD H H
+ADD H H
+ADD H H
+ADD A H
+LOAD B # load from memory s(n)
+PUT B
+SUB A A 
+INC A
+LOAD A #load from memory n
+SUB H H 
+INC H
+INC H
+INC H
+ADD A H
+LOAD B # load from memory f(n)
+PUT B
+HALT

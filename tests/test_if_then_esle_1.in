@@ -1,0 +1,21 @@
+DECLARE
+b;
+IN
+b := 10;
+IF b >= 10 THEN
+    b := b % 2;
+    IF b = 0 THEN
+        WRITE 100;
+    ELSE
+        WRITE 101;
+    ENDIF
+ELSE
+    b := b % 2;
+    IF b = 0 THEN
+        WRITE 0;
+    ELSE
+        WRITE 1;
+    ENDIF
+    
+ENDIF
+END

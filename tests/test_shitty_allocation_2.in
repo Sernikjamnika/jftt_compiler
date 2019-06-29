@@ -1,0 +1,26 @@
+DECLARE
+	a; b; c; d; e; z;
+IN
+	a:=5;
+	b:=10;
+	c:=15;
+	e := 1234567890;
+	z := 1234567890987654321;
+	FOR i FROM 10 TO 12 DO
+		e:= e / a; 
+		z := c /b;
+		IF a > b THEN
+			FOR j FROM 3 DOWNTO 0 DO
+				d := c / j;
+				z := z / a;
+				e:= e * b;
+				WRITE d;
+			ENDFOR
+		ELSE
+			e := a * b;
+			e := c / a;
+			WRITE 2;
+		ENDIF
+		a := a + i;
+	ENDFOR
+END

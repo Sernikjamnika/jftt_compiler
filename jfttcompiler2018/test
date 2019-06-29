@@ -1,0 +1,15 @@
+[ a ^ b mod c 
+? 1234567890
+? 1234567890987654321
+? 987654321
+> 674106858
+]
+DECLARE
+     wybor(1:10); a; b; c; wynik; pot;
+IN
+    READ a;
+    READ b;
+    READ c;
+    a := a;
+    WRITE a;
+END

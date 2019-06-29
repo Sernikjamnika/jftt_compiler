@@ -1,0 +1,59 @@
+SUB G G 
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+SUB A A 
+STORE G #store into memory a
+SUB D D 
+SUB A A 
+LOAD C #load from memory a
+COPY A D #condition begining 
+INC A
+SUB A C
+JZERO A 23
+JUMP 58 #condtion end
+SUB A A 
+LOAD G #load from memory a
+HALF G
+SUB A A 
+INC A
+STORE G #store into memory b
+SUB A A 
+INC A
+LOAD G #load from memory b
+ADD G G
+SUB A A 
+INC A
+STORE G #store into memory b
+SUB A A 
+LOAD C #load from memory a
+SUB A A 
+INC A
+LOAD D #load from memory b
+COPY A D #condition begining 
+INC A
+SUB A C
+JZERO A 46
+JUMP 50 #condtion end
+SUB B B 
+INC B
+PUT B
+JUMP 52
+SUB B B 
+PUT B
+SUB A A 
+LOAD G #load from memory a
+HALF G
+SUB A A 
+STORE G #store into memory a
+JUMP 15 #jump to condition
+HALT

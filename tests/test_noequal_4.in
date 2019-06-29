@@ -1,0 +1,7 @@
+DECLARE
+a;
+IN
+IF 11 != 11 THEN
+    WRITE 1;
+ENDIF
+END

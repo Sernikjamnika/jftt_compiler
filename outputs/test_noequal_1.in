@@ -1,0 +1,37 @@
+SUB G G 
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+SUB A A 
+STORE G #store into memory b
+SUB D D 
+INC D
+INC D
+INC D
+INC D
+INC D
+INC D
+INC D
+INC D
+INC D
+INC D
+SUB A A 
+LOAD C #load from memory b
+COPY A D # equals
+SUB A C
+JZERO A 30
+JUMP 33
+COPY A C
+SUB A D
+JZERO A 36 # end for not equals
+SUB B B 
+INC B
+PUT B
+HALT

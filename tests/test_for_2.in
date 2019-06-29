@@ -1,0 +1,12 @@
+DECLARE
+c;
+IN
+
+FOR i FROM 1 TO 3 DO
+    c := i - 1;
+    FOR j FROM 1 TO c DO
+        WRITE j;
+    ENDFOR
+ENDFOR
+
+END

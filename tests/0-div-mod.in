@@ -1,0 +1,19 @@
+[ div-mod.imp 
+  1 0
+  1 0 0 0
+]
+DECLARE
+	a; b; c;
+IN
+	a := 10;
+	b := 3;
+	c := a / a; [1]
+	WRITE c;
+	c := a / b; [3]
+	WRITE c;
+	c := a % a; [0]
+	WRITE c;
+	c := a % b; [1]
+	WRITE c;
+END
+

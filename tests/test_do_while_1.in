@@ -1,0 +1,17 @@
+DECLARE
+b; c;
+IN
+b := 10;
+c := 9;
+DO
+    WRITE c;
+    DO
+        c := c - 1;
+        WRITE c;
+    WHILE c != 0
+    ENDDO
+    c := c - 1;
+    WRITE c;
+WHILE c != 0
+ENDDO
+END

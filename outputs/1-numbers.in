@@ -1,0 +1,549 @@
+SUB B B 
+PUT B
+SUB B B 
+INC B
+PUT B
+SUB B B 
+INC B
+INC B
+PUT B
+SUB B B 
+INC B
+INC B
+INC B
+INC B
+INC B
+INC B
+INC B
+INC B
+INC B
+INC B
+PUT B
+SUB B B 
+INC B
+ADD B B
+INC B
+ADD B B
+ADD B B
+ADD B B
+INC B
+ADD B B
+ADD B B
+PUT B
+SUB B B 
+INC B
+ADD B B
+ADD B B
+ADD B B
+INC B
+ADD B B
+INC B
+ADD B B
+INC B
+ADD B B
+ADD B B
+ADD B B
+ADD B B
+INC B
+ADD B B
+ADD B B
+ADD B B
+ADD B B
+PUT B
+SUB B B 
+INC B
+ADD B B
+ADD B B
+ADD B B
+INC B
+ADD B B
+ADD B B
+ADD B B
+INC B
+ADD B B
+INC B
+ADD B B
+ADD B B
+ADD B B
+INC B
+ADD B B
+ADD B B
+INC B
+ADD B B
+INC B
+ADD B B
+ADD B B
+ADD B B
+ADD B B
+ADD B B
+ADD B B
+ADD B B
+ADD B B
+INC B
+ADD B B
+ADD B B
+INC B
+ADD B B
+INC B
+ADD B B
+ADD B B
+INC B
+ADD B B
+ADD B B
+ADD B B
+INC B
+ADD B B
+PUT B
+SUB G G 
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+SUB A A 
+INC A
+STORE G #store into memory a
+SUB G G 
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+SUB A A 
+STORE G #store into memory c
+SUB G G 
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE G # store into memory t(t)
+SUB G G 
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE G # store into memory tab(tab)
+SUB G G 
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE G # store into memory t(t)
+SUB G G 
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+STORE G # store into memory tab(tab)
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD G # load from memory t(0)
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE G # store into memory t(t)
+SUB A A 
+INC A
+LOAD G #load from memory a
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE G # store into memory tab(tab)
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD F # load from memory tab(4)
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+LOAD G # load from memory tab(0)
+COPY A G #division
+JZERO F 384 #zero_divison
+COPY D F
+COPY C D
+SUB C A
+JZERO C 367
+JUMP 369
+ADD D D
+JUMP 363
+SUB C C
+COPY E D
+SUB E A
+JZERO E 376
+ADD C C
+HALF D
+JUMP 380
+ADD C C
+INC C
+SUB A D
+HALF D
+COPY E F
+SUB E D
+JZERO E 370
+JUMP 386
+SUB A A
+SUB C C #division end
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE C # store into memory tab(tab)
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+LOAD G # load from memory tab(0)
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE G # store into memory t(t)
+SUB G G 
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+SUB A A 
+INC A
+INC A
+STORE G #store into memory h
+SUB A A 
+LOAD F #load from memory c
+SUB A A 
+INC A
+INC A
+LOAD G #load from memory h
+ADD G F
+SUB A A 
+INC A
+INC A
+INC A
+STORE G #store into memory j
+SUB A A 
+INC A
+INC A
+INC A
+LOAD B #load from memory j
+PUT B
+SUB A A 
+LOAD B #load from memory c
+PUT B
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD B # load from memory t(3)
+PUT B
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD B # load from memory t(2)
+PUT B
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD B # load from memory t(5)
+PUT B
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD B # load from memory t(0)
+PUT B
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD B # load from memory tab(4)
+PUT B
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD B # load from memory tab(5)
+PUT B
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+LOAD B # load from memory tab(0)
+PUT B
+HALT

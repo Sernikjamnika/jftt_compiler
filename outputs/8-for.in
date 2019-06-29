@@ -1,0 +1,321 @@
+SUB G G 
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+SUB A A 
+INC A
+STORE G #store into memory a
+SUB G G 
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+SUB A A 
+INC A
+INC A
+STORE G #store into memory b
+SUB G G 
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+SUB A A 
+STORE G #store into memory c
+SUB G G 
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+SUB A A 
+INC A
+INC A
+INC A
+STORE G #store into memory i
+SUB G G 
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+STORE G #store into memory i_end0
+SUB A A 
+INC A
+INC A
+INC A
+LOAD C #load from memory i
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+LOAD D #load from memory i_end0
+COPY A D #condition begining 
+SUB A C
+JZERO A 91
+JUMP 308 #condtion end
+SUB G G 
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE G #store into memory j
+SUB A A 
+INC A
+INC A
+INC A
+LOAD G #load from memory i
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE G #store into memory j_end0
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD C #load from memory j
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD D #load from memory j_end0
+COPY A C #condition begining 
+SUB A D
+JZERO A 131
+JUMP 295 #condtion end
+SUB G G 
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE G #store into memory k
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD G #load from memory j
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE G #store into memory k_end0
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD C #load from memory k
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD D #load from memory k_end0
+COPY A C #condition begining 
+SUB A D
+JZERO A 181
+JUMP 279 #condtion end
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD F #load from memory k
+SUB A A 
+INC A
+LOAD G #load from memory a
+ADD G F
+SUB A A 
+INC A
+STORE G #store into memory a
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD F #load from memory j
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD G #load from memory k
+COPY A F #checking which is bigger
+SUB A G
+JZERO A 226
+COPY A F #multiplying if x is smaller
+COPY E G
+SUB D D
+JZERO E 236
+JODD E 222
+JUMP 223
+ADD D A
+ADD A A
+HALF E
+JUMP 219 # multiplying if x end
+COPY A G #multiplying if y is smaller
+COPY E F
+SUB D D
+JZERO E 236
+JODD E 232
+JUMP 233
+ADD D A
+ADD A A
+HALF E
+JUMP 229 #multiplying if y end
+SUB A A 
+STORE D #store into memory c
+SUB A A 
+INC A
+INC A
+INC A
+LOAD F #load from memory i
+SUB A A 
+LOAD G #load from memory c
+ADD G F
+SUB A A 
+STORE G #store into memory c
+SUB A A 
+LOAD F #load from memory c
+SUB A A 
+INC A
+INC A
+LOAD G #load from memory b
+ADD G F
+SUB A A 
+INC A
+INC A
+STORE G #store into memory b
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD B #load from memory k
+INC B # increment iterator
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE B #store into memory k
+JUMP 158 #jump to condition
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD B #load from memory j
+INC B # increment iterator
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE B #store into memory j
+JUMP 112 #jump to condition
+SUB A A 
+INC A
+INC A
+INC A
+LOAD B #load from memory i
+JZERO B 308
+DEC B # decrement iterator
+SUB A A 
+INC A
+INC A
+INC A
+STORE B #store into memory i
+JUMP 76 #jump to condition
+SUB A A 
+INC A
+LOAD B #load from memory a
+PUT B
+SUB A A 
+INC A
+INC A
+LOAD B #load from memory b
+PUT B
+SUB A A 
+LOAD B #load from memory c
+PUT B
+HALT

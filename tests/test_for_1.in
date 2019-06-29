@@ -1,0 +1,11 @@
+DECLARE
+a;
+IN
+
+FOR i FROM 1 TO 3 DO
+    FOR j FROM i TO 3 DO
+        WRITE i;
+    ENDFOR
+ENDFOR
+
+END

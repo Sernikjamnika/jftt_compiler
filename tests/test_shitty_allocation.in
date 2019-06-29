@@ -1,0 +1,45 @@
+DECLARE
+a; b; c; d; e; f; g; h; k; l; z; x; pa; pb; pc; pd; pf;
+IN
+a:=1;
+b:=2;
+d:=4;
+e:=5;
+f:=6;
+g:=8;
+h:=10;
+k:=32;
+l:=11;
+z:=11;
+x:=11;
+pa := 0;
+pb := 2;
+pc := 3;
+pd := 4;
+
+FOR i FROM 0 TO 0 DO
+    c := e - h;   [ # 0]
+    h := i / a; [# 1]
+    a := z * k;[ # 352]
+    WRITE z; [11]
+    WRITE k; [32]
+    WRITE a; [352]
+    g:=8 + x;
+        FOR j FROM 0 TO 1 DO
+            c := j - i;   [0,1,2,3] 
+            x := i / a;
+            pa:= a + b;
+            pb := 21;
+            pc := 33 / x;
+            pd := 44 + z;
+        ENDFOR
+    h:=10 + x; [21]
+    x:=11 + x;
+    WRITE z;
+    WRITE k;
+    WRITE a;
+ENDFOR
+
+
+
+END

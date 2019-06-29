@@ -1,0 +1,11 @@
+DECLARE
+a; b; c;
+IN
+
+a := 12312312;
+b := 22;
+c := a / b;
+WRITE a;
+WRITE b;
+WRITE c;
+END

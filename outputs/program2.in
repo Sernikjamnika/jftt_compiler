@@ -1,0 +1,276 @@
+SUB G G 
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+SUB A A 
+INC A
+STORE G #store into memory n
+SUB G G 
+INC G
+INC G
+SUB A A 
+STORE G #store into memory dzielnik
+SUB A A 
+LOAD G #load from memory dzielnik
+COPY A G #checking which is bigger
+SUB A G
+JZERO A 36
+COPY A G #multiplying if x is smaller
+COPY E G
+SUB D D
+JZERO E 46
+JODD E 32
+JUMP 33
+ADD D A
+ADD A A
+HALF E
+JUMP 29 # multiplying if x end
+COPY A G #multiplying if y is smaller
+COPY E G
+SUB D D
+JZERO E 46
+JODD E 42
+JUMP 43
+ADD D A
+ADD A A
+HALF E
+JUMP 39 #multiplying if y end
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+STORE D #store into memory m
+SUB A A 
+INC A
+LOAD C #load from memory n
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+LOAD D #load from memory m
+COPY A D #condition begining 
+SUB A C
+JZERO A 65
+JUMP 256 #condtion end
+SUB G G 
+SUB A A 
+INC A
+INC A
+STORE G #store into memory potega
+SUB A A 
+LOAD F #load from memory dzielnik
+SUB A A 
+INC A
+LOAD G #load from memory n
+COPY C G #division
+JZERO F 99 #zero_divison
+COPY D F
+COPY A D
+SUB A C
+JZERO A 82
+JUMP 84
+ADD D D
+JUMP 78
+SUB A A
+COPY E D
+SUB E C
+JZERO E 91
+ADD A A
+HALF D
+JUMP 95
+ADD A A
+INC A
+SUB C D
+HALF D
+COPY E F
+SUB E D
+JZERO E 85
+JUMP 101
+SUB C C
+SUB A A #division end
+SUB A A 
+INC A
+INC A
+INC A
+STORE C #store into memory reszta
+SUB D D 
+SUB A A 
+INC A
+INC A
+INC A
+LOAD C #load from memory reszta
+COPY A D # equals
+SUB A C
+JZERO A 116
+JUMP 200
+COPY A C
+SUB A D
+JZERO A 120 # end for not equals
+JUMP 200 # end equals
+SUB A A 
+LOAD F #load from memory dzielnik
+SUB A A 
+INC A
+LOAD G #load from memory n
+COPY A G #division
+JZERO F 149 #zero_divison
+COPY D F
+COPY C D
+SUB C A
+JZERO C 132
+JUMP 134
+ADD D D
+JUMP 128
+SUB C C
+COPY E D
+SUB E A
+JZERO E 141
+ADD C C
+HALF D
+JUMP 145
+ADD C C
+INC C
+SUB A D
+HALF D
+COPY E F
+SUB E D
+JZERO E 135
+JUMP 151
+SUB A A
+SUB C C #division end
+SUB A A 
+INC A
+STORE C #store into memory n
+SUB A A 
+INC A
+INC A
+LOAD G #load from memory potega
+INC G
+SUB A A 
+INC A
+INC A
+STORE G #store into memory potega
+SUB A A 
+LOAD F #load from memory dzielnik
+SUB A A 
+INC A
+LOAD G #load from memory n
+COPY C G #division
+JZERO F 192 #zero_divison
+COPY D F
+COPY A D
+SUB A C
+JZERO A 175
+JUMP 177
+ADD D D
+JUMP 171
+SUB A A
+COPY E D
+SUB E C
+JZERO E 184
+ADD A A
+HALF D
+JUMP 188
+ADD A A
+INC A
+SUB C D
+HALF D
+COPY E F
+SUB E D
+JZERO E 178
+JUMP 194
+SUB C C
+SUB A A #division end
+SUB A A 
+INC A
+INC A
+INC A
+STORE C #store into memory reszta
+JUMP 106 #jump to condition
+SUB D D 
+SUB A A 
+INC A
+INC A
+LOAD C #load from memory potega
+COPY A D #condition begining 
+INC A
+SUB A C
+JZERO A 210
+JUMP 219 #condtion end
+SUB A A 
+LOAD B #load from memory dzielnik
+PUT B
+SUB A A 
+INC A
+INC A
+LOAD B #load from memory potega
+PUT B
+JUMP 255
+SUB A A 
+LOAD G #load from memory dzielnik
+INC G
+SUB A A 
+STORE G #store into memory dzielnik
+SUB A A 
+LOAD G #load from memory dzielnik
+COPY A G #checking which is bigger
+SUB A G
+JZERO A 239
+COPY A G #multiplying if x is smaller
+COPY E G
+SUB D D
+JZERO E 249
+JODD E 235
+JUMP 236
+ADD D A
+ADD A A
+HALF E
+JUMP 232 # multiplying if x end
+COPY A G #multiplying if y is smaller
+COPY E G
+SUB D D
+JZERO E 249
+JODD E 245
+JUMP 246
+ADD D A
+ADD A A
+HALF E
+JUMP 242 #multiplying if y end
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+STORE D #store into memory m
+JUMP 52 #jump to condition
+SUB D D 
+INC D
+SUB A A 
+INC A
+LOAD C #load from memory n
+COPY A D # equals
+SUB A C
+JZERO A 265
+JUMP 268
+COPY A C
+SUB A D
+JZERO A 275 # end for not equals
+SUB A A 
+INC A
+LOAD B #load from memory n
+PUT B
+SUB B B 
+INC B
+PUT B
+HALT

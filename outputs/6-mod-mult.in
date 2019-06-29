@@ -1,0 +1,450 @@
+SUB G G 
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+STORE G #store into memory a
+SUB G G 
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+SUB A A 
+INC A
+STORE G #store into memory b
+SUB G G 
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+ADD G G
+ADD G G
+INC G
+ADD G G
+INC G
+ADD G G
+ADD G G
+ADD G G
+ADD G G
+INC G
+SUB A A 
+INC A
+INC A
+STORE G #store into memory c
+SUB G G 
+INC G
+SUB A A 
+INC A
+INC A
+INC A
+STORE G #store into memory wynik
+SUB A A 
+INC A
+INC A
+LOAD F #load from memory c
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+INC A
+LOAD G #load from memory a
+COPY C G #division
+JZERO F 232 #zero_divison
+COPY D F
+COPY A D
+SUB A C
+JZERO A 215
+JUMP 217
+ADD D D
+JUMP 211
+SUB A A
+COPY E D
+SUB E C
+JZERO E 224
+ADD A A
+HALF D
+JUMP 228
+ADD A A
+INC A
+SUB C D
+HALF D
+COPY E F
+SUB E D
+JZERO E 218
+JUMP 234
+SUB C C
+SUB A A #division end
+SUB A A 
+STORE C #store into memory pot
+SUB D D 
+SUB A A 
+INC A
+LOAD C #load from memory b
+COPY A D #condition begining 
+INC A
+SUB A C
+JZERO A 245
+JUMP 443 #condtion end
+SUB F F 
+INC F
+INC F
+SUB A A 
+INC A
+LOAD G #load from memory b
+COPY C G #division
+JZERO F 275 #zero_divison
+COPY D F
+COPY A D
+SUB A C
+JZERO A 258
+JUMP 260
+ADD D D
+JUMP 254
+SUB A A
+COPY E D
+SUB E C
+JZERO E 267
+ADD A A
+HALF D
+JUMP 271
+ADD A A
+INC A
+SUB C D
+HALF D
+COPY E F
+SUB E D
+JZERO E 261
+JUMP 277
+SUB C C
+SUB A A #division end
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+STORE C #store into memory wybor
+SUB D D 
+INC D
+SUB A A 
+INC A
+INC A
+INC A
+INC A
+LOAD C #load from memory wybor
+COPY A D # equals
+SUB A C
+JZERO A 295
+JUMP 374
+COPY A C
+SUB A D
+JZERO A 299 # end for not equals
+JUMP 374 # end equals
+SUB A A 
+LOAD F #load from memory pot
+SUB A A 
+INC A
+INC A
+INC A
+LOAD G #load from memory wynik
+COPY A F #checking which is bigger
+SUB A G
+JZERO A 319
+COPY A F #multiplying if x is smaller
+COPY E G
+SUB D D
+JZERO E 329
+JODD E 315
+JUMP 316
+ADD D A
+ADD A A
+HALF E
+JUMP 312 # multiplying if x end
+COPY A G #multiplying if y is smaller
+COPY E F
+SUB D D
+JZERO E 329
+JODD E 325
+JUMP 326
+ADD D A
+ADD A A
+HALF E
+JUMP 322 #multiplying if y end
+SUB A A 
+INC A
+INC A
+INC A
+STORE D #store into memory wynik
+SUB A A 
+INC A
+INC A
+LOAD F #load from memory c
+SUB A A 
+INC A
+INC A
+INC A
+LOAD G #load from memory wynik
+COPY C G #division
+JZERO F 367 #zero_divison
+COPY D F
+COPY A D
+SUB A C
+JZERO A 350
+JUMP 352
+ADD D D
+JUMP 346
+SUB A A
+COPY E D
+SUB E C
+JZERO E 359
+ADD A A
+HALF D
+JUMP 363
+ADD A A
+INC A
+SUB C D
+HALF D
+COPY E F
+SUB E D
+JZERO E 353
+JUMP 369
+SUB C C
+SUB A A #division end
+SUB A A 
+INC A
+INC A
+INC A
+STORE C #store into memory wynik
+SUB A A 
+INC A
+LOAD G #load from memory b
+HALF G
+SUB A A 
+INC A
+STORE G #store into memory b
+SUB A A 
+LOAD G #load from memory pot
+COPY A G #checking which is bigger
+SUB A G
+JZERO A 396
+COPY A G #multiplying if x is smaller
+COPY E G
+SUB D D
+JZERO E 406
+JODD E 392
+JUMP 393
+ADD D A
+ADD A A
+HALF E
+JUMP 389 # multiplying if x end
+COPY A G #multiplying if y is smaller
+COPY E G
+SUB D D
+JZERO E 406
+JODD E 402
+JUMP 403
+ADD D A
+ADD A A
+HALF E
+JUMP 399 #multiplying if y end
+SUB A A 
+STORE D #store into memory pot
+SUB A A 
+INC A
+INC A
+LOAD F #load from memory c
+SUB A A 
+LOAD G #load from memory pot
+COPY C G #division
+JZERO F 438 #zero_divison
+COPY D F
+COPY A D
+SUB A C
+JZERO A 421
+JUMP 423
+ADD D D
+JUMP 417
+SUB A A
+COPY E D
+SUB E C
+JZERO E 430
+ADD A A
+HALF D
+JUMP 434
+ADD A A
+INC A
+SUB C D
+HALF D
+COPY E F
+SUB E D
+JZERO E 424
+JUMP 440
+SUB C C
+SUB A A #division end
+SUB A A 
+STORE C #store into memory pot
+JUMP 236 #jump to condition
+SUB A A 
+INC A
+INC A
+INC A
+LOAD B #load from memory wynik
+PUT B
+HALT

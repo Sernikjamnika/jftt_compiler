@@ -1,0 +1,84 @@
+SUB G G 
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+INC G
+SUB A A 
+STORE G #store into memory c
+SUB A A 
+LOAD B #load from memory c
+PUT B
+SUB D D 
+SUB A A 
+LOAD C #load from memory c
+COPY A D # equals
+SUB A C
+JZERO A 22
+JUMP 25
+COPY A C
+SUB A D
+JZERO A 34 # end for not equals
+SUB A A 
+LOAD G #load from memory c
+DEC G
+SUB A A 
+STORE G #store into memory c
+SUB A A 
+LOAD B #load from memory c
+PUT B
+JUMP 15 #jump to condition
+SUB A A 
+LOAD G #load from memory c
+DEC G
+SUB A A 
+STORE G #store into memory c
+SUB A A 
+LOAD B #load from memory c
+PUT B
+SUB D D 
+SUB A A 
+LOAD C #load from memory c
+COPY A D # equals
+SUB A C
+JZERO A 49
+JUMP 52
+COPY A C
+SUB A D
+JZERO A 83 # end for not equals
+SUB A A 
+LOAD B #load from memory c
+PUT B
+SUB D D 
+SUB A A 
+LOAD C #load from memory c
+COPY A D # equals
+SUB A C
+JZERO A 62
+JUMP 65
+COPY A C
+SUB A D
+JZERO A 74 # end for not equals
+SUB A A 
+LOAD G #load from memory c
+DEC G
+SUB A A 
+STORE G #store into memory c
+SUB A A 
+LOAD B #load from memory c
+PUT B
+JUMP 55 #jump to condition
+SUB A A 
+LOAD G #load from memory c
+DEC G
+SUB A A 
+STORE G #store into memory c
+SUB A A 
+LOAD B #load from memory c
+PUT B
+JUMP 42 #jump to condition
+HALT

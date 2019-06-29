@@ -1,0 +1,4 @@
+DECLARE
+IN
+    WRITE 1;
+END
